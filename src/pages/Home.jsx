@@ -1,7 +1,13 @@
-import React from "react";
+import Hero from "../components/Hero";
+import Button from "../components/Button";
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <Hero />
+      <Button style="button" text="test" />
+    </>
+  );
 }
 
 export default Home;
