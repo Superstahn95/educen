@@ -37,7 +37,7 @@ function Navbar() {
       setShowNav(false);
     }
   };
-  console.log(showNav);
+
   window.addEventListener("scroll", showFixedNav);
   window.addEventListener("resize", showFixedNav);
   return (
@@ -132,7 +132,7 @@ function Navbar() {
       <div
         className={
           showSecondNav
-            ? "bg-white py-4 fixed w-full top-0 transition-all duration-1000 ease-in-out "
+            ? "bg-white py-4 fixed z-[1999] w-full top-0 transition-all duration-1000 ease-in-out "
             : "bg-white py-4 fixed w-full top-0 hidden"
         }
       >

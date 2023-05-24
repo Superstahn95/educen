@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "img": "/images/course1.jpg",
+    "subject": "english and literature",
+    "free": false,
+    "price": 30000,
+    "students": 30,
+    "description": "Language skills are the basic competencies that the talents of today's society must possess. In modern society, the interaction between people is mostly achieved by language. For students, to enhance their language expression skills is an important means to enhance their communication ability. The good language skill is also the basis for students to establish a good interpersonal relationship in the society. At present, the social competition is very intense. After entering the society, students also must have strong language skills in order to effectively deal with all kinds of relationships in order to effectively develop in social competition. But now the language skills of students are poor. In the process of dealing with people, it is even difficult for them to put their own minds with the appropriate language. There are many reasons for this problem. English language and literature education has important role in the cultivation of students' language skills and the promotion of students' English ability. English language and literature education can effectively provide students with literature and language knowledge, to expand the students' thinking space and rich students’ visions, so that students can experience the language practice activities, which can effectively improve the language skills of students. Therefore, in school education, it is necessary to pay attention to English language and literature education and to pay attention to cultivate students' language skills.",
+    "tutor": [
+      {
+        "name": "John Doe",
+        "img": "/images/face.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "img": "/images/course2.jpg",
+    "subject": "Maths and statistics",
+    "free": false,
+    "price": 50000,
+    "students": 40,
+    "description": "Mathematics is the abstract science of numbers, quantity and space. Mathematics may be studied in its own right (pure mathematics), or as it is applied to other disciplines such as physics and engineering (applied mathematics). Statistics is the science of collecting and analyzing numerical data in large quantities, especially for the purpose of inferring proportions as a whole from those in a representative sample.",
+    "tutor": [
+      {
+        "name": "Stanley Chukwuemeka",
+        "img": "/images/face.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "img": "/images/course3.jpg",
+    "subject": "history",
+    "free": true,
+    "price": 0,
+    "students": 40,
+    "description": "“Those who cannot remember the past are condemned to repeat it.” George Santayana's quote is one of academia's most cited and paraphrased lines, and explains perfectly why everyone should study history. The past is filled with warning signs and we must learn from mistakes made and resist and question if we see similar patterns emerging",
+    "tutor": [
+      {
+        "name": "Joel chukwuemeka",
+        "img": "/images/face.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "img": "/images/course4.jpg",
+    "subject": "Philosophy",
+    "free": false,
+    "price": 10000,
+    "students": 20,
+    "description": "The study of philosophy exposes students to great debates on deep and important questions, and teaches critical thinking skills that last a lifetime. But these aren’t the only reasons to study philosophy. Philosophy majors are also very successful after college, whether they choose to pursue advanced studies or move directly into their careers. A few majors continue to study philosophy in graduate school, and go on to become philosophy professors. But most study philosophy as a way of broadening their intellectual horizons before pursuing a career in another field.",
+    "tutor": [
+      {
+        "name": "victor agbai",
+        "img": "/images/face.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "img": "/images/course5.jpg",
+    "subject": "Geography",
+    "free": false,
+    "price": 15000,
+    "students": 15,
+    "description": "Geography helps us to explore and understand space and place - recognising the great differences in cultures, political systems, economies, landscapes and environments across the world, and exploring the links between them. Geography also provides an ideal framework for connecting and bringing together other fields of knowledge.",
+    "tutor": [
+      {
+        "name": "anicetus junior",
+        "img": "/images/face.jpg"
+      }
+    ]
+  }
+]
