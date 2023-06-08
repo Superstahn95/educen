@@ -1,4 +1,6 @@
 import { BsFillPeopleFill } from "react-icons/bs";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function CourseCard({ subject }) {
   //function for making our cutting down our description
@@ -8,7 +10,8 @@ function CourseCard({ subject }) {
   return (
     <div className="shadow-sm overflow-hidden mx-3">
       <div className="h-[300px] overflow-hidden">
-        <img
+        <LazyLoadImage
+          effect="blur"
           src={subject.img}
           alt={subject.subject}
           className="w-full h-[300px] cursor-pointer object-cover transition-all duration-500 ease-in-out hover:scale-110"
@@ -27,14 +30,15 @@ function CourseCard({ subject }) {
             subject.tutor.map((tutor) => {
               return (
                 <div className="flex items-center ">
-                  <img
+                  <LazyLoadImage
                     src={tutor.img}
                     alt={tutor.name}
+                    effect="blur"
                     className="h-[50px] w-[50px] rounded-full"
                   />
                   <p className="ms-3 text-[14px] font-roboto capitalize">
                     {tutor.name} /{" "}
-                    <span classname="font-italic">Professor</span>{" "}
+                    <span className="font-italic">Professor</span>{" "}
                   </p>
                 </div>
               );

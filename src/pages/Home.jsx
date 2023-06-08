@@ -4,6 +4,7 @@ import AboutUs from "../components/AboutUs";
 import CountDown from "../components/CountDown";
 import Courses from "../components/Courses/Courses.jsx";
 import FreeCourses from "../components/FreeCourses";
+import Blog from "../components/blogs/Blog";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <CountDown />
       <Courses />
       <FreeCourses />
+      <Blog />
     </>
   );
 }

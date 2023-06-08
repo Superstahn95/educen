@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import Courses from "./pages/Courses";
 import Gallery from "./pages/Gallery";
 import Shop from "./pages/Shop";
+import Blog from "./pages/Blog";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -21,6 +22,7 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/blog" element={<Blog />} />
       </Route>
     )
   );

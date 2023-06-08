@@ -19,7 +19,7 @@ function AboutUs() {
       },
     },
   };
-  console.log("am i rerendering?");
+
   return (
     <section>
       <div className="container w-[90%] mx-auto flex flex-col gap-4  justify-between py-20 lg:flex-row">

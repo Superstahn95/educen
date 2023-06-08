@@ -14,12 +14,12 @@ function FreeCourses() {
       }}
     >
       <div className="absolute w-full h-full bg-blue-700/40"></div>
-      <div className="container w-[90%]  mx-auto grid md:grid-cols-2 relative z-[99]">
-        <div>
-          <h2 className="uppercase text-2xl font-merriweather text-white">
+      <div className="container w-[90%]  mx-auto grid gap-4  relative z-[99]  py-10 md:py-0 md:grid-cols-2 md:gap-0">
+        <div className="flex flex-col items-center">
+          <h2 className="uppercase text-[24px] text-center  font-merriweather text-white md:text-2xl">
             get 100s of online courses for free
           </h2>
-          <h1 className="uppercase text-6xl font-merriweather text-white font-bold py-3">
+          <h1 className="uppercase text-3xl md:text-6xl font-merriweather text-white font-bold py-3">
             register now
           </h1>
           <div className="flex flex-col gap-4 md:flex-row my-4">
@@ -44,32 +44,32 @@ function FreeCourses() {
 
         {/* form side */}
         <div className="flex items-center justify-center">
-          <div className="w-[80%]">
-            <div className=" bg-red-400 text-white font-bold px-10 py-3 flex items-center ">
+          <div className="w-full md:w-[80%]">
+            <div className=" bg-red-400 text-white font-bold px-4  py-3 flex items-center md:px-10">
               <BiLock size={30} />
-              <h2 className="uppercase font-roboto text-xl">
+              <h2 className="uppercase font-roboto text-[16px] md:text-xl">
                 Create your account now
               </h2>
             </div>
-            <div className="bg-white p-10">
+            <div className="bg-white p-4 md:p-10">
               <div className="mb-3">
                 <input
                   type="text"
-                  className="border border-solid border-black/40 p-4 w-full font-roboto"
+                  className="border border-solid border-black/20 p-4 w-full font-roboto"
                   placeholder="Your name*"
                 />
               </div>
               <div className="mb-3">
                 <input
                   type="text"
-                  className="border border-solid border-black/40 p-4 w-full font-roboto"
+                  className="border border-solid border-black/20 p-4 w-full font-roboto"
                   placeholder="Email*"
                 />
               </div>
               <div className="mb-3">
                 <input
                   type="text"
-                  className="border border-solid border-black/40 p-4 w-full font-roboto"
+                  className="border border-solid border-black/20 p-4 w-full font-roboto"
                   placeholder="Phone*"
                 />
               </div>
