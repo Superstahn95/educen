@@ -12,6 +12,7 @@ import Courses from "./pages/Courses";
 import Gallery from "./pages/Gallery";
 import Shop from "./pages/Shop";
 import Blog from "./pages/Blog";
+import Cart from "./pages/Cart";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -23,6 +24,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/cart" element={<Cart />} />
       </Route>
     )
   );

@@ -91,7 +91,7 @@ function Navbar() {
                 <Link to={"/about"}>About Us</Link>
               </li>
               <li className="cursor-pointer">
-                <Link to={"/gallery"}>Gallery</Link>
+                <Link to={"/"}>Gallery</Link>
               </li>
               <li className="cursor-pointer ">
                 <Link to={"/courses"}>Courses</Link>
