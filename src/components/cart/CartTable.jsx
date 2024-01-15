@@ -90,6 +90,11 @@ function CartTable({ cart }) {
           })}
         </table>
       </div>
+
+      {/* cart totals */}
+      <div className="w-[90%] mx-auto flex justify-end">
+        <div></div>
+      </div>
     </div>
   );
 }
